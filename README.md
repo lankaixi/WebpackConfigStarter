@@ -16,7 +16,7 @@ npm start
 ```
 https://localhost:55555
 ```
-
+(You may need to click 'advanced' -> 'Proceed to localhost (unsafe)' to continue if using chrome)
 # How to build?
 
 * Note: the index.html under root dir won't work because it hasn't been loaded
@@ -25,11 +25,9 @@ https://localhost:55555
 ```
 npm run build
 ```
-
-* If this doesn't work, just run webpack to compile
-
+or(for development build)
 ```
-webpack
+npm run dev 
 ```
 
 * The output files will be compiled into dist folder

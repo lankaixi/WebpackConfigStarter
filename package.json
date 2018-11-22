@@ -4,7 +4,9 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --https --mode development"
+    "start": "webpack-dev-server --https --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
   },
   "dependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
